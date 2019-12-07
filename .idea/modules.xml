@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/txDemo/txCore/txCore.iml" filepath="$PROJECT_DIR$/txDemo/txCore/txCore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/txDemo/txOrder/txOrder.iml" filepath="$PROJECT_DIR$/txDemo/txOrder/txOrder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/txDemo/txProduct/txProduct.iml" filepath="$PROJECT_DIR$/txDemo/txProduct/txProduct.iml" />
+    </modules>
+  </component>
+</project>
