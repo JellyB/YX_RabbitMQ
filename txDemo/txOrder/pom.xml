@@ -9,7 +9,7 @@
   </parent>
   <artifactId>tx_order</artifactId>
   <version>1.0</version>
-  <name>tx_order</name>
+  <name>txOrder</name>
   <url>http://maven.apache.org</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

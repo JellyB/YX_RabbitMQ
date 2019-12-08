@@ -7,7 +7,7 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <name>tx_demo</name>
+  <name>txDemo</name>
   <url>http://maven.apache.org</url>
   <parent>
 	<groupId>org.springframework.boot</groupId>

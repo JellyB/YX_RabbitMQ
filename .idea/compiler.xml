@@ -6,10 +6,30 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="transactionXA" />
-        <module name="delayMessageDemo" />
         <module name="ticketApi" />
+        <module name="txCore" />
+        <module name="transactionXA" />
+        <module name="txProduct" />
+        <module name="rabbitMqDemo" />
+        <module name="delayMessageDemo" />
+        <module name="txOrder" />
+        <module name="ticketClient" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="txCore" target="1.8" />
+      <module name="txOrder" target="1.8" />
+      <module name="txProduct" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="delayMessageDemo" options="-parameters" />
+      <module name="ticketApi" options="-parameters" />
+      <module name="ticketClient" options="-parameters" />
+      <module name="txCore" options="-parameters" />
+      <module name="txOrder" options="-parameters" />
+      <module name="txProduct" options="-parameters" />
+    </option>
   </component>
 </project>

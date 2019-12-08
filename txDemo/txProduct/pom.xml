@@ -9,7 +9,7 @@
   </parent>
   <artifactId>tx_product</artifactId>
   <version>1.0</version>
-  <name>tx_product</name>
+  <name>txProduct</name>
   <url>http://maven.apache.org</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
